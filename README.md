@@ -32,13 +32,14 @@ Diese Anleitung steht auch in der App unter „Anleitung“.
 
 Mit Quizsachen erstellst du barrierefreie Quizze: Fragen mit Antworten zum Anklicken, Richtig-oder-falsch-Aussagen und Reihenfolgen – mit Texten, Bildern und Tönen, Vorlesefunktion und Rückmeldungen. Alles läuft direkt in deinem Browser, ohne Anmeldung.
 
-### In 5 Schritten zum fertigen Quiz
+### In 6 Schritten zum fertigen Quiz
 
-1. **Vorlage wählen oder leer starten** – Datei-Menü (Ordner-Symbol) → „Neues Quiz …“. Bei einer Vorlage ist die Anordnung schon fertig.
+1. **Vorlage wählen oder leer starten** – Datei-Menü (Ordner-Symbol) → „Neues Quiz …“. Bei einer Vorlage ist die Anordnung schon fertig. Dort kannst du auch gleich „Fragen als Text eingeben“ oder „Mit KI erstellen“ – das bisherige Quiz wird dann durch das neue ersetzt.
 2. **Titel eingeben** – oben in der Leiste oder im Schritt „1 Start“.
-3. **Fragen anlegen** – im Schritt „2 Fragen“ einzeln, oder viele auf einmal mit „Fragen per Text eingeben“ bzw. mit Hilfe einer KI.
-4. **Aussehen und Ablauf einstellen** – Schritte „3 Gestaltung“, „4 Hintergrund“ und „5 Ablauf“ (Rückmeldung, Fortschritt, Abschlusskarte).
-5. **Testen und exportieren** – oben auf „Testen“ klicken, dann „Exportieren“: als HTML-Datei, SCORM-Paket für mebis/Moodle, PDF-Arbeitsblatt oder als Text.
+3. **Hintergrund und Aussehen** – Schritte „2 Hintergrund“ und „3 Gestaltung“ (Schrift, Antwortkarten, Farben).
+4. **Fragen anlegen** – im Schritt „4 Fragen“ einzeln, oder viele auf einmal mit „Fragen per Text eingeben“ bzw. mit Hilfe einer KI.
+5. **Ablauf einstellen** – Schritt „5 Ablauf“ (Rückmeldung, Fortschritt, Abschlusskarte).
+6. **Testen und exportieren** – oben auf „Testen“ klicken, dann „Exportieren“: als HTML-Datei, SCORM-Paket für mebis/Moodle, PDF-Arbeitsblatt oder als Text.
 
 ### So ist der Editor aufgebaut
 
@@ -123,7 +124,7 @@ Viele Fragen gibst du am schnellsten als Text ein: Folienleiste „+ Frage“ �
 
 In „Fragen mit KI erstellen“ legst du Thema, optional Material oder Stichpunkte, Anzahl, Zielgruppe, Fragetypen, Antworten pro Frage, Bilder und Erklärungen fest. Die Auswahl merkt sich Quizsachen für das nächste Mal. Dann gibt es zwei Wege:
 
-- **Über einen KI-Chat:** „Prompt kopieren“ legt die fertige Anweisung mit deiner Auswahl in die Zwischenablage. In einer KI-Anwendung (z. B. AIS.chat, ByLKI, Duck.ai) einfügen und abschicken, den Block mit dem Quiz kopieren und über „Ergebnis einfügen …“ übernehmen.
+- **Über einen KI-Chat:** Klicke eine KI-Anwendung an (z. B. AIS.chat, ByLKI, Duck.ai, ChatGPT). Der fertige Prompt mit deiner Auswahl wird automatisch übernommen: in die Zwischenablage (dort mit `Strg`+`V` einfügen), bei ChatGPT, Claude und Mistral zusätzlich direkt ins Eingabefeld. Für jede andere KI gibt es „Andere KI (Zwischenablage)“. Den Block mit dem Quiz kopieren und über „Ergebnis einfügen …“ übernehmen.
 - **Über eine API-Schnittstelle:** mit einem eigenen API-Schlüssel (Claude von Anthropic oder ein Dienst mit OpenAI-kompatibler Schnittstelle wie OpenAI, Mistral, Gemini, OpenRouter) oder einer **lokalen KI** (Ollama, LM Studio – ohne Schlüssel). „Fragen erzeugen“ schickt den Prompt direkt ab; das Ergebnis erscheint in der Vorschau der Texteingabe. Den Schlüssel speichert Quizsachen nur, wenn du das einschaltest.
 
 > **Achtung:** Gib keine personenbezogenen Daten von Schülerinnen und Schülern in eine KI ein und prüfe die Fragen vor dem Einsatz.
