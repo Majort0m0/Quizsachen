@@ -20,7 +20,39 @@
 
 Quizsachen – Lizenz: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) Lernsachen.blog ([https://lernsachen.blog](https://lernsachen.blog))
 
-Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0).
+Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Lexend, Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0). Silbentrennung (Silben rot und blau): [Hypher](https://github.com/bramstein/hypher) (© 2011 Bram Stein, BSD-3-Clause) mit den deutschen TeX-Trennmustern dehyphn-x-2011-06-01 (© 2007–2011 Werner Lemberg, [LaTeX Project Public License 1.3c](https://www.latex-project.org/lppl/)), von Bram Stein ins Hypher-Format umgewandelt (npm-Paket hyphenation.de 0.2.1); die Silbenregeln für Sprechsilben kommen danach dazu. Die Autoren der Trennmuster sind für diese App nicht verantwortlich. Unverändertes Original: [tex-hyphen](https://github.com/hyphenation/tex-hyphen) (hyph-de-1996.tex, Stand 2011-06-01) bzw. CTAN (hyph-utf8).
+
+<details><summary>Lizenztext von Hypher (BSD-3-Clause)</summary>
+
+```
+Copyright (c) 2011, Bram Stein
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+</details>
 
 ---
 
@@ -145,7 +177,8 @@ Tondateien hochladen oder direkt aufnehmen (Mikrofon). Im Schnitt-Editor wählst
 
 - **Vorlese-Knöpfe:** Für jeden Text (Titel, Einleitung, Frage, Antwort, Hintergrund-Texte) einschaltbar. Die Computerstimme des Geräts liest vor – oder eine eigene Aufnahme. Im Schritt „Gestaltung“ schaltest du alle auf einmal ein.
 - **Automatisch vorlesen:** Im Schritt „Ablauf“ – jede Frage wird beim Erscheinen vorgelesen.
-- **Schriften:** u. a. *Atkinson Hyperlegible* (besonders gut unterscheidbare Buchstaben) und *Andika* (für Leseanfänger). Die zuletzt gewählte Schrift merkt sich Quizsachen für neue Quizze.
+- **Schriften:** u. a. *Lexend* (besonders leicht lesbar), *Atkinson Hyperlegible* (besonders gut unterscheidbare Buchstaben) und *Andika* (für Leseanfänger). Die zuletzt gewählte Schrift merkt sich Quizsachen für neue Quizze.
+- **Silben rot und blau** (rot-blauer Silben-Knopf): Die Wörter erscheinen in Sprechsilben, abwechselnd blau und rot (Silbenmethode) – statt der Schriftfarbe, auf einer weißen Hinterlegung, damit sie auf bunten Karten und Hintergründen gut lesbar bleiben.
 - **Tastatur:** Alle Antworten sind mit `Tab` und Pfeiltasten erreichbar, `Leertaste` wählt aus, die Zifferntasten `1`–`9` wählen direkt. Reihenfolgen: `Leertaste` nimmt ein Teil auf, Pfeiltasten verschieben, `Leertaste` legt ab.
 - **Screenreader:** Fragen sind Überschriften, Antworten echte Auswahlfelder; Rückmeldungen werden angesagt.
 - **Unterscheidung ohne Farbe:** Richtig/falsch wird zusätzlich mit Häkchen bzw. Kreuz gezeigt, Antworten tragen auf Wunsch Buchstaben.
