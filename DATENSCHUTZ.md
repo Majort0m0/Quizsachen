@@ -23,7 +23,7 @@ Damit nichts verloren geht, speichert Quizsachen das aktuelle Quiz automatisch i
 
 Außerdem merkt sich Quizsachen im lokalen Speicher deines Browsers (localStorage) die **zuletzt gewählte Schrift**, damit neue Texte gleich in dieser Schrift beginnen. Gespeichert wird nur der Name der Schrift, keine Inhalte. Dieser Eintrag bleibt auch bei einem „Neuen Quiz“ erhalten; du löschst ihn, indem du in deinem Browser die Website-Daten löschst.
 
-Dateien wie JSON, HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
+Dateien wie HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.
 
 ### 3. Keine Cookies, kein Tracking
 

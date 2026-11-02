@@ -81,7 +81,7 @@ Mit Quizsachen erstellst du barrierefreie Quizze: Fragen mit Antworten zum Ankli
 - **Vorschau:** zeigt die gewählte Folie genau so, wie die Lernenden sie sehen. Richtige Antworten sind hier grün gestrichelt markiert.
 - **Folienleiste** (unten): Startkarte, alle Fragen und die Abschlusskarte. Klicke eine Folie an, um sie zu bearbeiten. Fragen lassen sich hier per Ziehen umsortieren; „+ Frage“ legt neue an.
 
-> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Quizze zusätzlich als JSON-Datei (Datei-Menü → „Als JSON speichern“).
+> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Quizze zusätzlich als Datei (Datei-Menü → „Speichern“).
 
 ## Vorlagen
 
@@ -206,17 +206,18 @@ Im Schritt „Hintergrund“ gibt es vier Möglichkeiten:
 
 „Testen“ startet das Quiz mit dem echten Player – auch in Tablet- und Handy-Größe. Mit „Ab Frage …“ beginnst du bei der gerade gewählten Frage.
 
-- **HTML-Datei:** eine einzige Datei, läuft offline in jedem Browser. Zum Einbetten in mebis/Moodle führt dich „Einbetten in mebis/Moodle“ Schritt für Schritt zum fertigen iframe-Code.
+- **HTML-Datei:** eine einzige Datei, läuft offline in jedem Browser und lässt sich in Quizsachen wieder öffnen und weiterbearbeiten. Zum Einbetten in mebis/Moodle führt dich „Einbetten in mebis/Moodle“ Schritt für Schritt zum fertigen iframe-Code.
 - **SCORM-Paket (1.2):** für mebis/Moodle mit Punkten, bestanden/nicht bestanden, Antworten je Frage und Fortsetzen angefangener Versuche.
 - **PDF-Arbeitsblatt:** alle Fragen mit Kästchen zum Ankreuzen bzw. Nummerieren, auf Wunsch mit Lösungsblatt.
 - **Text:** im Quizsachen-Format, als GIFT für die Moodle-Fragensammlung oder im Aiken-Format.
-- **JSON:** die Projektdatei zum Weiterbearbeiten.
 
 ## Speichern & Weiterbearbeiten
 
-Quizsachen speichert das aktuelle Quiz automatisch in deinem Browser (nur auf diesem Gerät). Für ein zweites Quiz, zum Sichern oder Weitergeben: Datei-Menü → „Als JSON speichern“. Mit „Öffnen …“ lädst du eine JSON-Datei – oder eine exportierte HTML-Datei, um sie weiterzubearbeiten.
+Quizsachen speichert das aktuelle Quiz automatisch in deinem Browser (nur auf diesem Gerät). Für ein zweites Quiz, zum Sichern oder Weitergeben: Datei-Menü → „Speichern“. Du bekommst eine HTML-Datei: Sie läuft in jedem Browser, lässt sich in Lernsachen-Heft einfügen, und „Öffnen …“ lädt sie wieder in den Editor. Das geht auch mit einer HTML-Datei aus „Exportieren“ und mit älteren JSON-Dateien.
 
-> **Achtung:** Beim Löschen der Browserdaten geht das automatisch gespeicherte Quiz verloren. Sichere wichtige Quizze als JSON-Datei.
+Am Namen erkennst du, aus welcher App eine Datei stammt: „Titel (Quizsachen).html“, „(Schiebesachen)“, „(Textsachen)“ oder „(Heft)“ für Lernsachen-Heft. Öffnest du die Datei einer anderen App, sagt dir Quizsachen, wohin sie gehört.
+
+> **Achtung:** Beim Löschen der Browserdaten geht das automatisch gespeicherte Quiz verloren. Sichere wichtige Quizze als Datei („Speichern“).
 
 ### Im Lernsachen-Heft
 
