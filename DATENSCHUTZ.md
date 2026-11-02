@@ -19,6 +19,8 @@ Wenn du Quizsachen von einer Webseite aus aufrufst, ruft dein Browser die Datei 
 
 Damit nichts verloren geht, speichert Quizsachen das aktuelle Quiz automatisch im Speicher deines Browsers (IndexedDB) – nur auf diesem Gerät, nur in diesem Browser. Niemand sonst hat Zugriff darauf. Du löschst diese Daten, indem du ein „Neues Quiz“ beginnst oder in deinem Browser die Website-Daten löschst.
 
+Öffnest du Quizsachen im Lernsachen-Heft, liegt der Entwurf getrennt davon und wird gelöscht, sobald das Quiz im Heft ist oder du abbrichst. Das Quiz gibt Quizsachen dabei nur an das Heft in deinem Browser weiter – es verlässt dein Gerät nicht.
+
 Außerdem merkt sich Quizsachen im lokalen Speicher deines Browsers (localStorage) die **zuletzt gewählte Schrift**, damit neue Texte gleich in dieser Schrift beginnen. Gespeichert wird nur der Name der Schrift, keine Inhalte. Dieser Eintrag bleibt auch bei einem „Neuen Quiz“ erhalten; du löschst ihn, indem du in deinem Browser die Website-Daten löschst.
 
 Dateien wie JSON, HTML, SCORM-Pakete oder PDF entstehen ebenfalls nur lokal und werden in deinem Download-Ordner gespeichert. Was du damit machst (z. B. in mebis hochladen), entscheidest du.

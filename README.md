@@ -185,6 +185,10 @@ Quizsachen speichert das aktuelle Quiz automatisch in deinem Browser (nur auf di
 
 > **Achtung:** Beim Löschen der Browserdaten geht das automatisch gespeicherte Quiz verloren. Sichere wichtige Quizze als JSON-Datei.
 
+### Im Lernsachen-Heft
+
+Im Lernsachen-Heft öffnet die Vorlage „Quiz“ Quizsachen direkt im Heft. Oben rechts stehen dann „Ins Heft übernehmen“ und „Abbrechen“. Bis das Quiz im Heft ist, speichert Quizsachen es als eigenen Entwurf – getrennt von dem Quiz, an dem du sonst in Quizsachen arbeitest. Wurde das Heft zwischendurch geschlossen, bietet Quizsachen beim nächsten neuen Quiz an, den Entwurf fortzusetzen.
+
 ### Tastenkürzel im Editor
 
 - `Strg`+`Z` rückgängig, `Strg`+`Umschalt`+`Z` wiederholen
