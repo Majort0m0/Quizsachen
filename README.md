@@ -187,7 +187,7 @@ Quizsachen speichert das aktuelle Quiz automatisch in deinem Browser (nur auf di
 
 ### Im Lernsachen-Heft
 
-Im Lernsachen-Heft öffnet die Vorlage „Quiz“ Quizsachen direkt im Heft. Oben rechts stehen dann „Ins Heft übernehmen“ und „Abbrechen“. Bis das Quiz im Heft ist, speichert Quizsachen es als eigenen Entwurf – getrennt von dem Quiz, an dem du sonst in Quizsachen arbeitest. Wurde das Heft zwischendurch geschlossen, bietet Quizsachen beim nächsten neuen Quiz an, den Entwurf fortzusetzen.
+Im Lernsachen-Heft öffnet die Vorlage „Quiz“ Quizsachen direkt im Heft. Oben rechts stehen dann „Ins Heft übernehmen“ und „Abbrechen“. Bis das Quiz im Heft ist, speichert Quizsachen es als eigenen Entwurf – getrennt von dem Quiz, an dem du sonst in Quizsachen arbeitest. Wurde das Heft zwischendurch geschlossen, bietet Quizsachen beim nächsten neuen Quiz an, den Entwurf fortzusetzen. Weil die Seiten im Heft quer sind, gibt es dort nur die Formate 16:9 und 4:3 im Querformat.
 
 ### Tastenkürzel im Editor
 
