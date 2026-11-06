@@ -73,17 +73,17 @@ Mit Quizsachen erstellst du barrierefreie Quizze: Fragen mit Antworten zum Ankli
 3. **Hintergrund und Aussehen** – Schritte „2 Hintergrund“ und „3 Gestaltung“ (Schrift, Antwortkarten, Farben).
 4. **Fragen anlegen** – im Schritt „4 Fragen“ einzeln, oder viele auf einmal mit „Fragen per Text eingeben“ bzw. mit Hilfe einer KI.
 5. **Ablauf einstellen** – Schritt „5 Ablauf“ (Rückmeldung, Fortschritt, Abschlusskarte).
-6. **Testen und exportieren** – oben auf „Testen“ klicken, dann „Exportieren“: als HTML-Datei, SCORM-Paket für mebis/Moodle, PDF-Arbeitsblatt oder als Text.
+6. **Testen und speichern** – oben auf „Testen“ klicken, dann „Speichern“: als HTML-Datei, SCORM-Paket für mebis/Moodle, PDF-Arbeitsblatt oder als Text.
 
 ### So ist der Editor aufgebaut
 
-- **Obere Leiste:** Titel, Rückgängig/Wiederholen, „Bearbeiten“/„Testen“, Datei-Menü, Anleitung, Datenschutz und „Exportieren“.
+- **Obere Leiste:** Titel, Rückgängig/Wiederholen, „Bearbeiten“/„Testen“, Datei-Menü, Anleitung, Datenschutz und „Speichern“.
 - **Schrittleiste** (links): die fünf Arbeitsschritte.
 - **Seitenleiste:** alle Einstellungen des gewählten Schritts.
 - **Vorschau:** zeigt die gewählte Folie genau so, wie die Lernenden sie sehen. Richtige Antworten sind hier grün gestrichelt markiert.
 - **Folienleiste** (unten): Startkarte, alle Fragen und die Abschlusskarte. Klicke eine Folie an, um sie zu bearbeiten. Fragen lassen sich hier per Ziehen umsortieren; „+ Frage“ legt neue an.
 
-> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Quizze zusätzlich als Datei (Datei-Menü → „Speichern“).
+> **Tipp:** Deine Arbeit wird automatisch im Browser gespeichert. Sichere wichtige Quizze zusätzlich als Datei (Datei-Menü → „Als HTML-Datei speichern“).
 
 ## Vorlagen
 
@@ -204,7 +204,7 @@ Im Schritt „Hintergrund“ gibt es vier Möglichkeiten:
 - **Abschlusskarte:** Sterne, Punkte und Prozent, Übersicht aller Fragen (jede lässt sich noch einmal ansehen), „Falsche wiederholen“ und „Nochmal von vorn“.
 - **Bewertung:** jede Frage ein Punkt; mit „Teilpunkte“ gibt es bei Mehrfachauswahl und Reihenfolge anteilige Punkte.
 
-## Testen & Exportieren
+## Testen und speichern
 
 „Testen“ startet das Quiz mit dem echten Player – auch in Tablet- und Handy-Größe. Mit „Ab Frage …“ beginnst du bei der gerade gewählten Frage.
 
@@ -215,7 +215,7 @@ Im Schritt „Hintergrund“ gibt es vier Möglichkeiten:
 
 ## Speichern & Weiterbearbeiten
 
-Quizsachen speichert das aktuelle Quiz automatisch in deinem Browser (nur auf diesem Gerät). Für ein zweites Quiz, zum Sichern oder Weitergeben: Datei-Menü → „Speichern“. Du bekommst eine HTML-Datei: Sie läuft in jedem Browser, lässt sich in Lernsachen-Heft einfügen, und „Öffnen …“ lädt sie wieder in den Editor. Das geht auch mit einer HTML-Datei aus „Exportieren“ und mit älteren JSON-Dateien.
+Quizsachen speichert das aktuelle Quiz automatisch in deinem Browser (nur auf diesem Gerät). Für ein zweites Quiz, zum Sichern oder Weitergeben: Datei-Menü → „Als HTML-Datei speichern“. Du bekommst eine HTML-Datei: Sie läuft in jedem Browser, lässt sich in Lernsachen-Heft einfügen, und „Öffnen …“ lädt sie wieder in den Editor. Das geht auch mit älteren JSON-Dateien.
 
 Am Namen erkennst du, aus welcher App eine Datei stammt: „Titel (Quizsachen).html“, „(Schiebesachen)“, „(Textsachen)“ oder „(Heft)“ für Lernsachen-Heft. Öffnest du die Datei einer anderen App, sagt dir Quizsachen, wohin sie gehört.
 
