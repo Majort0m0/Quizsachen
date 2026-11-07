@@ -48,7 +48,7 @@ Links in Bildnachweisen, in dieser Hilfe oder zu Lizenzen öffnen sich erst, wen
 
 Auf das Mikrofon greift Quizsachen nur zu, wenn du eine Aufnahme startest **und** deinem Browser die Erlaubnis gibst. Die Aufnahme bleibt lokal: Sie wird nur in deinem Quiz gespeichert und nirgendwohin hochgeladen oder verschickt.
 
-Damit du nicht vor jeder Aufnahme neu zustimmen musst, bleibt das Mikrofon nach der ersten Aufnahme **für diese Sitzung** freigegeben – nur solange die Seite geöffnet ist. Aufgenommen wird dabei nur, während eine Aufnahme läuft. Mit „Mikrofon trennen“ gibst du das Mikrofon sofort frei; beim Schließen oder Verlassen der Seite gibt Quizsachen es automatisch frei. Die Erlaubnis selbst verwaltet dein Browser (Schloss- bzw. Mikrofon-Symbol in der Adresszeile).
+Damit du nicht vor jeder Aufnahme neu zustimmen musst, bleibt das Mikrofon nach der ersten Aufnahme **für diese Sitzung** freigegeben – nur solange die Seite geöffnet ist. Aufgenommen wird dabei nur, während eine Aufnahme läuft. Mit „Mikrofon trennen“ gibst du das Mikrofon sofort frei; beim Schließen oder Verlassen der Seite gibt Quizsachen es automatisch frei. Auf dem iPad, dem iPhone und am Mac mit Safari gibt Quizsachen das Mikrofon nach jeder Aufnahme gleich wieder frei. Die Erlaubnis selbst verwaltet dein Browser (Schloss- bzw. Mikrofon-Symbol in der Adresszeile).
 
 ### 6. Sprachausgabe (Vorlesen)
 

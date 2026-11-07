@@ -173,7 +173,7 @@ In „Fragen mit KI erstellen“ legst du Thema, optional Material oder Stichpun
 
 ### Töne
 
-Tondateien hochladen oder direkt aufnehmen (Mikrofon). Im Schnitt-Editor wählst du mit Start- und Endmarke den gewünschten Ausschnitt. Ein Ton erscheint als runder Abspiel-Knopf.
+Tondateien hochladen oder direkt aufnehmen (Mikrofon). Im Schnitt-Editor wählst du mit Start- und Endmarke den gewünschten Ausschnitt. Ein Ton erscheint als runder Abspiel-Knopf. Unter der Wellenform machst du den Ton vor dem Übernehmen besser: „Lautstärke angleichen“ (leise Aufnahmen werden lauter, alle Töne klingen etwa gleich laut – bei neuen Aufnahmen schon an, das Gerät merkt sich deine Wahl), „Stimme klarer“, „Rauschen in Pausen leiser“ und „Lange Pausen kürzen“; „Verbessert anhören“ spielt das Ergebnis vorher vor. Während der Aufnahme geht es mit „Stopp und übernehmen“ gleich weiter. Klappt das Zuschneiden oder Verbessern einmal nicht, kommt der Ton trotzdem hinein – ohne die Verbesserung oder so, wie du ihn aufgenommen hast; ein kurzer Hinweis sagt dir, was gefehlt hat. Eine neue Aufnahme geht nicht durch einen Klick neben das Fenster verloren: Beim Schließen wirst du gefragt, ob du sie verwerfen willst. Auf dem iPad, dem iPhone und am Mac mit Safari wird das Mikrofon nach jeder Aufnahme gleich wieder freigegeben (ein offenes Mikrofon macht dort alle Töne leiser); Safari fragt dann meist trotzdem nicht neu.
 
 ## Vorlesen & Barrierefreiheit
 
