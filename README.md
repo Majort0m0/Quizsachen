@@ -125,6 +125,8 @@ Die Frage steht oben, links oder rechts, die Antworten als Raster, Liste oder Re
 
 **Frei anordnen:** Mit „Kästen frei anordnen“ verschiebst du Frage- und Antwortkästen direkt in der Vorschau und änderst ihre Größe an den Ecken (Pfeiltasten verschieben fein, mit `Umschalt` in großen Schritten). „Wieder automatisch anordnen“ macht das rückgängig.
 
+**Für alle Fragen:** „Auf alle Fragen übertragen …“ gibt allen anderen Fragen (oder nur denen desselben Typs) die Anordnung und die Vorlesen-Knöpfe dieser Frage. Schrift und Farben gelten ohnehin für das ganze Quiz („Gestaltung“). Für Texte und Bilder auf dem Hintergrund gibt es bei jedem Element „Aussehen auf alle übertragen …“.
+
 > **Tipp:** Auf schmalen Bildschirmen (Handy) oder bei starker Vergrößerung ordnet das Quiz Frage und Antworten automatisch untereinander an – mit gut lesbarer Schrift.
 
 ## Fragen per Text & mit KI
