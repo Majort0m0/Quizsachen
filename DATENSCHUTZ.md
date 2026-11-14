@@ -1,13 +1,13 @@
 # Datenschutz
 
-Diese Hinweise stehen auch in der App unter „Datenschutz“.
+Diese Erklärung steht auch in der App unter „?“ → „Datenschutz“.
 
 **Kurz gesagt:**
 
 - Quizsachen hat keinen Server. Alles läuft lokal in deinem Browser.
 - Deine Quizze werden nur auf deinem Gerät gespeichert.
 - Keine Anmeldung, keine Cookies, kein Tracking, keine Analyse, keine Werbung.
-- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, Wikimedia Commons) benutzt, eine Bildadresse (URL) einfügst (siehe Punkt 4) oder Fragen über eine KI-Schnittstelle erzeugen lässt (siehe Punkt 8).
+- Verbindungen ins Internet gibt es nur, wenn du die Bildsuche (ARASAAC, BildWort, Wikimedia Commons) benutzt, eine Bildadresse (URL) einfügst (siehe Punkt 4) oder Fragen über eine KI-Schnittstelle erzeugen lässt (siehe Punkt 8).
 
 ### 1. Alles läuft lokal in deinem Browser
 
@@ -31,14 +31,15 @@ Quizsachen setzt keine Cookies, verwendet keine Analyse- oder Statistikdienste, 
 
 ### 4. Externe Verbindungen bei Bildsuche und Bildadresse
 
-Nur wenn du im Bild-Dialog **selbst** eine Suche startest oder ein Suchergebnis übernimmst – oder beim Übernehmen von Fragen aus der Texteingabe Bilder automatisch suchen eingeschaltet ist –, verbindet sich dein Browser direkt mit dem jeweiligen Dienst:
+Nur wenn du im Bild-Dialog **selbst** eine Suche startest oder ein Suchergebnis übernimmst – oder beim Übernehmen von Fragen aus der Texteingabe „Bilder automatisch suchen“ eingeschaltet ist –, verbindet sich dein Browser direkt mit dem jeweiligen Dienst:
 
 | Dienst | Adressen | Datenschutz |
 | --- | --- | --- |
 | **ARASAAC** (Regierung von Aragón, Spanien) | `api.arasaac.org`, `static.arasaac.org` | [Datenschutzerklärung von ARASAAC](https://arasaac.org/privacy-policy) |
+| **BildWort** (Christian Urff) | `symbole.urff.app` | [Datenschutzhinweise von BildWort](https://symbole.urff.app/hilfe#datenschutz) |
 | **Wikimedia Commons** (Wikimedia Foundation, USA) | `commons.wikimedia.org`, `upload.wikimedia.org`, `thumb.wikimedia.org` | [Datenschutzrichtlinie der Wikimedia Foundation](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/de) |
 
-Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Quizsachen schickt keine weiteren Daten mit, insbesondere nicht dein Quiz. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden.
+Dabei werden **deine IP-Adresse**, der **Suchbegriff** und übliche technische Angaben deines Browsers (z. B. Browsertyp, Sprache) an diesen Dienst übermittelt – so wie beim Besuch der jeweiligen Webseite. Quizsachen schickt keine weiteren Daten mit, insbesondere nicht dein Quiz. Gib deshalb keine personenbezogenen Daten als Suchbegriff ein. Die Wikimedia Foundation sitzt in den USA; Daten können dorthin übertragen werden. BildWort zählt die Suchwörter (ohne IP-Adresse, höchstens 90 Tage), damit seine Redaktion sieht, welche Bilder noch fehlen. Außerdem merkt sich dein Browser (localStorage), in welcher Reihenfolge die Bildquellen gefragt werden und welches Bild du zuletzt für ein Wort gewählt hast (Wort, Bildadresse, Bildnachweis) – das gilt für alle vier Lernsachen-Apps auf diesem Gerät.
 
 Fügst du unter „Oder Bildadresse (URL) einfügen“ eine Adresse ein oder ziehst ein Bild aus einer anderen Webseite hinein, lädt dein Browser das Bild von dieser Webseite – auch dabei erfährt deren Betreiber deine IP-Adresse.
 

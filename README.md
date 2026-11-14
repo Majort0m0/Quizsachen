@@ -7,7 +7,10 @@
 **⬇ Herunterladen:** [Quizsachen.html](https://github.com/Majort0m0/Quizsachen/releases/latest/download/Quizsachen.html) (eine einzige Datei, läuft offline – einfach doppelklicken)
 
 - Fragetypen: Einfachauswahl, Mehrfachauswahl, Richtig oder falsch (mit Daumen hoch/runter), Reihenfolge (untereinander oder nebeneinander)
-- Frage und Antworten aus Text, Bild (Upload, ARASAAC, Wikimedia Commons) und Ton (Upload oder Aufnahme mit Schnitt-Editor) – auch kombiniert
+- Frage und Antworten aus Text, Bild (Upload, Bildersuche bei BildWort, ARASAAC und Wikimedia Commons – mit Jugendschutzfilter) und Ton (Upload oder Aufnahme mit Schnitt-Editor) – auch kombiniert
+- Titelbild des Quiz (im ersten Schritt mit dem Stern gewählt, sonst das erste Bild) – auf der Startkarte mit Titel, Einleitung und „Los geht’s“
+- Voreinstellungen für neu erstellte Quizze (Vorlesen, Schrift, Textfarbe, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät
+- Aus Lernsachen-Heft heraus („Weitere Übung“): der KI-Assistent startet mit dem Material der Übung im Heft – oder ein Bilderquiz ohne KI
 - Vorlesen per Sprachausgabe oder eigener Aufnahme, gut lesbare Schriften (u. a. Atkinson Hyperlegible, Andika), Bildbeschreibungen für Screenreader, Bedienung per Tastatur, automatischer Umbruch auf Handys
 - Vorlagen mit fertiger Anordnung – oder frei gestalten; eigene Vorlagen speichern, exportieren und importieren
 - Hintergrund als Farbe, Farbverlauf, Bild oder frei gestaltet im Editor – mit Texten, Bildern, Tönen und eigenen Zeichnungen
@@ -22,7 +25,7 @@ Quizsachen – Lizenz: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by
 
 Du darfst Quizsachen kopieren, weitergeben und verändern – auch in deiner Schule und im Kollegium –, solange du Lernsachen.blog als Urheber nennst, auf die Lizenz verweist, es nicht kommerziell nutzt und Veränderungen unter derselben Lizenz weitergibst. Die Quizze, die du damit erstellst, gehören dir; für darin verwendete Bilder und Töne gelten deren eigene Lizenzen.
 
-Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Lexend, Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0). Silbentrennung (Silben rot und blau): [Hypher](https://github.com/bramstein/hypher) (© 2011 Bram Stein, BSD-3-Clause) mit den deutschen TeX-Trennmustern dehyphn-x-2011-06-01 (© 2007–2011 Werner Lemberg, [LaTeX Project Public License 1.3c](https://www.latex-project.org/lppl/)), von Bram Stein ins Hypher-Format umgewandelt (npm-Paket hyphenation.de 0.2.1); die Silbenregeln für Sprechsilben kommen danach dazu. Die Autoren der Trennmuster sind für diese App nicht verantwortlich. Unverändertes Original: [tex-hyphen](https://github.com/hyphenation/tex-hyphen) (hyph-de-1996.tex, Stand 2011-06-01) bzw. CTAN (hyph-utf8).
+Enthaltene Bausteine: [Preact](https://preactjs.com), [Immer](https://immerjs.github.io/immer/), [Excalidraw](https://excalidraw.com) (MIT-Lizenz); [Anthropic TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript) für die KI-Schnittstelle ([Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)); Schriften Lexend, Nunito, Atkinson Hyperlegible, Andika, Merriweather, Caveat (SIL Open Font License 1.1). Bilder aus der Suche behalten ihre eigenen Lizenzen (ARASAAC: CC BY-NC-SA 4.0, BildWort: CC BY 4.0, Wikimedia Commons: je nach Bild). Silbentrennung (Silben rot und blau): [Hypher](https://github.com/bramstein/hypher) (© 2011 Bram Stein, BSD-3-Clause) mit den deutschen TeX-Trennmustern dehyphn-x-2011-06-01 (© 2007–2011 Werner Lemberg, [LaTeX Project Public License 1.3c](https://www.latex-project.org/lppl/)), von Bram Stein ins Hypher-Format umgewandelt (npm-Paket hyphenation.de 0.2.1); die Silbenregeln für Sprechsilben kommen danach dazu. Die Autoren der Trennmuster sind für diese App nicht verantwortlich. Unverändertes Original: [tex-hyphen](https://github.com/hyphenation/tex-hyphen) (hyph-de-1996.tex, Stand 2011-06-01) bzw. CTAN (hyph-utf8).
 
 <details><summary>Lizenztext von Hypher (BSD-3-Clause)</summary>
 
@@ -153,7 +156,7 @@ Viele Fragen gibst du am schnellsten als Text ein: Folienleiste „+ Frage“ �
 ```
 
 - `?` beginnt eine Frage, `(x)`/`( )` Einfachauswahl, `[x]`/`[ ]` Mehrfachauswahl, `= richtig`/`= falsch`, `1.` `2.` … Reihenfolge, `>` Erklärung.
-- `[Bild: Igel]` sucht beim Übernehmen automatisch ein passendes Piktogramm bei ARASAAC.
+- `[Bild: Igel]` sucht beim Übernehmen automatisch ein passendes Bild (ARASAAC oder BildWort, in deiner Reihenfolge).
 - Fragen im **GIFT-Format** (z. B. aus der Moodle-Fragensammlung) und im **Aiken-Format** werden ebenfalls erkannt.
 
 ### Mit einer KI
@@ -170,7 +173,7 @@ In „Fragen mit KI erstellen“ legst du Thema, optional Material oder Stichpun
 ### Bilder
 
 - **Hochladen** per Klick, Ziehen oder Einfügen (`Strg`+`V`). Bilder werden automatisch verkleinert und direkt in das Quiz eingebettet (Base64) – es entstehen keine externen Abhängigkeiten.
-- **Suchen** bei [ARASAAC](https://arasaac.org) (Piktogramme, deutsche Suche) und [Wikimedia Commons](https://commons.wikimedia.org). Die Lizenz wird angezeigt und als Bildnachweis gespeichert.
+- **Suchen** bei [BildWort](https://symbole.urff.app) (Symbole, beta), [ARASAAC](https://arasaac.org) (Piktogramme) und [Wikimedia Commons](https://commons.wikimedia.org) – je Quelle eine Reihe, der beste Treffer ist markiert und gleich ausgewählt. Unter „Quellen“ stellst du Reihenfolge und An/Aus ein; Wikimedia Commons ist von Haus aus aus („Auch dort suchen“ unter den Treffern schaltet es ein). Die Lizenz wird angezeigt und als Bildnachweis gespeichert. Treffer von Wikimedia laufen durch einen Jugendschutzfilter (Nacktheit, Gewalt, Drogen) – kein Filter ist perfekt, schau Fotos vor dem Einsatz an.
 - **Bildbeschreibung:** Für Screenreader. Bei Suchergebnissen wird das Suchwort vorgeschlagen. Besonders wichtig bei Antworten, die nur aus einem Bild bestehen.
 
 ### Töne
