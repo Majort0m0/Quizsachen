@@ -11,7 +11,7 @@
 - Titelbild des Quiz (im ersten Schritt mit dem Stern gewählt, sonst das erste Bild) – auf der Startkarte mit Titel, Einleitung und „Los geht’s“
 - Voreinstellungen für neu erstellte Quizze (Vorlesen, Schrift, Textfarbe, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät
 - Aus Lernsachen-Heft heraus („Weitere Übung“): der KI-Assistent startet mit dem Material der Übung im Heft – oder ein Bilderquiz ohne KI
-- Vorlesen per Sprachausgabe oder eigener Aufnahme, gut lesbare Schriften (u. a. Atkinson Hyperlegible, Andika), Bildbeschreibungen für Screenreader, Bedienung per Tastatur, automatischer Umbruch auf Handys
+- Vorlesen per Sprachausgabe oder eigener Aufnahme, dieselben elf Schriften wie im Lernsachen-Heft (Schulschriften Druckschrift, Grundschrift und Schreibschrift VA/SAS, dazu u. a. Andika, Lexend, Atkinson Hyperlegible), Bildbeschreibungen für Screenreader, Bedienung per Tastatur, automatischer Umbruch auf Handys
 - Vorlagen mit fertiger Anordnung – oder frei gestalten; eigene Vorlagen speichern, exportieren und importieren
 - Hintergrund als Farbe, Farbverlauf, Bild oder frei gestaltet im Editor – mit Texten, Bildern, Tönen und eigenen Zeichnungen
 - Schnelle Eingabe vieler Fragen als Text (auch GIFT aus Moodle und Aiken) und Erstellung mit KI – per Prompt für jeden KI-Chat oder direkt über eine API (Claude, OpenAI-kompatible Dienste, lokale KI wie Ollama oder LM Studio)
@@ -184,7 +184,7 @@ Tondateien hochladen oder direkt aufnehmen (Mikrofon). Im Schnitt-Editor wählst
 
 - **Vorlese-Knöpfe:** Für jeden Text (Titel, Einleitung, Frage, Antwort, Hintergrund-Texte) einschaltbar. Die Computerstimme des Geräts liest vor – oder eine eigene Aufnahme. Im Schritt „Gestaltung“ schaltest du alle auf einmal ein.
 - **Automatisch vorlesen:** Im Schritt „Ablauf“ – jede Frage wird beim Erscheinen vorgelesen.
-- **Schriften:** u. a. *Lexend* (besonders leicht lesbar), *Atkinson Hyperlegible* (besonders gut unterscheidbare Buchstaben) und *Andika* (für Leseanfänger). Die zuletzt gewählte Schrift merkt sich Quizsachen für neue Quizze.
+- **Schriften:** die Schulschriften *Druckschrift* (wie in Bayern), *Grundschrift* und *Schreibschrift* (Vereinfachte Ausgangsschrift oder Schulausgangsschrift), dazu u. a. *Andika* (für Leseanfänger), *Lexend* (besonders leicht lesbar), *Atkinson* (besonders gut unterscheidbare Buchstaben), eine *Handschrift* und *Comic* – dieselben Schriften wie im Lernsachen-Heft. Die zuletzt gewählte Schrift merkt sich Quizsachen für neue Quizze.
 - **Silben rot und blau** (rot-blauer Silben-Knopf): Die Wörter erscheinen in Sprechsilben, abwechselnd blau und rot (Silbenmethode) – statt der Schriftfarbe, auf einer weißen Hinterlegung, damit sie auf bunten Karten und Hintergründen gut lesbar bleiben.
 - **Tastatur:** Alle Antworten sind mit `Tab` und Pfeiltasten erreichbar, `Leertaste` wählt aus, die Zifferntasten `1`–`9` wählen direkt. Reihenfolgen: `Leertaste` nimmt ein Teil auf, Pfeiltasten verschieben, `Leertaste` legt ab.
 - **Screenreader:** Fragen sind Überschriften, Antworten echte Auswahlfelder; Rückmeldungen werden angesagt.
