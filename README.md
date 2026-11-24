@@ -9,7 +9,7 @@
 - Fragetypen: Einfachauswahl, Mehrfachauswahl, Richtig oder falsch (mit Daumen hoch/runter), Reihenfolge (untereinander oder nebeneinander)
 - Frage und Antworten aus Text, Bild (Upload, Bildersuche bei BildWort, ARASAAC und Wikimedia Commons – mit Jugendschutzfilter) und Ton (Upload oder Aufnahme mit Schnitt-Editor) – auch kombiniert
 - Titelbild des Quiz (im ersten Schritt mit dem Stern gewählt, sonst das erste Bild) – auf der Startkarte mit Titel, Einleitung und „Los geht’s“
-- Voreinstellungen für neu erstellte Quizze (Vorlesen, Schrift, Textfarbe, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät
+- Voreinstellungen für neu erstellte Quizze (Vorlesen, Schrift, Textfarbe, Silben, Bilder automatisch suchen) – gelten für alle Lernsachen-Apps auf diesem Gerät – im Lernsachen-Heft zeigen sie die Werte des Hefts an („Im Heft ändern …“ öffnet dort die Einstellungen); „Wie die Vorlage“ übernimmt, was die Vorlage mitbringt
 - Aus Lernsachen-Heft heraus („Weitere Übung“): der KI-Assistent startet mit dem Material der Übung im Heft – oder ein Bilderquiz ohne KI
 - Vorlesen per Sprachausgabe oder eigener Aufnahme, dieselben elf Schriften wie im Lernsachen-Heft (Schulschriften Druckschrift, Grundschrift und Schreibschrift VA/SAS, dazu u. a. Andika, Lexend, Atkinson Hyperlegible), Bildbeschreibungen für Screenreader, Bedienung per Tastatur, automatischer Umbruch auf Handys
 - Vorlagen mit fertiger Anordnung – oder frei gestalten; eigene Vorlagen speichern, exportieren und importieren
